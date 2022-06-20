@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-weight: 400;
+  src: url(/fonts/CeraProRegular.otf);
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-weight: 500;
+  src: url(/fonts/CeraProMedium.otf);
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-weight: 600;
+  src: url(/fonts/CeraProBold.otf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Cera Pro';
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #2c56af;
+  text-decoration: none;
+}
+
+::placeholder {
+  color: #b9bed5;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #b9bed5;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

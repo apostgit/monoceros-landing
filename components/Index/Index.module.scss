@@ -1,0 +1,75 @@
+div.index {
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+
+  div.bg {
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/844/756/925/rosette-nebula-ngc-2244-galaxy-stars-wallpaper-5b78621f415481e6e7a4088242668407.jpg');
+    // box-shadow: 0 0 8px 8px #000000 inset;
+    z-index: 10;
+
+    div.blur {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 50%;
+      background: rgb(0, 0, 0);
+      background: linear-gradient(90deg, rgba(0, 0, 0, 1) 30%, rgba(255, 255, 255, 0) 100%);
+      z-index: 0;
+    }
+  }
+
+  div.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+
+    button.btn {
+      width: 200px;
+      height: 40px;
+      border-radius: 1px;
+      border: 1px solid #000000;
+      box-shadow: 4px 4px 0px 0px #ffffff;
+      margin: 30px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.2s ease;
+
+      &.primary {
+        background-color: #ffffff;
+        color: #000000;
+
+        &:active {
+          box-shadow: 0px 0px 0px 0px #ffffff;
+        }
+      }
+
+      &.secondary {
+        background-color: #b31544;
+        border-color: #000000;
+        color: #ffffff;
+        box-shadow: 4px 4px 0px 0px #b31544;
+
+        &:active {
+          box-shadow: 0px 0px 0px 0px #b31544;
+        }
+      }
+    }
+  }
+}
