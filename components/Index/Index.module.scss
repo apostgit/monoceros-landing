@@ -44,8 +44,7 @@ div.index {
       width: 200px;
       height: 40px;
       border-radius: 1px;
-      border: 1px solid #000000;
-      box-shadow: 4px 4px 0px 0px #ffffff;
+      border: 0;
       margin: 30px;
       font-weight: 600;
       cursor: pointer;
@@ -54,20 +53,20 @@ div.index {
       &.primary {
         background-color: #ffffff;
         color: #000000;
+        box-shadow: 4px 4px 0px 0px #dedede;
 
         &:active {
-          box-shadow: 0px 0px 0px 0px #ffffff;
+          box-shadow: 0px 0px 0px 0px #dedede;
         }
       }
 
       &.secondary {
         background-color: #b31544;
-        border-color: #000000;
         color: #ffffff;
-        box-shadow: 4px 4px 0px 0px #b31544;
+        box-shadow: 4px 4px 0px 0px #9e143d;
 
         &:active {
-          box-shadow: 0px 0px 0px 0px #b31544;
+          box-shadow: 0px 0px 0px 0px #9e143d;
         }
       }
     }
