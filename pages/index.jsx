@@ -8,7 +8,7 @@ export default function Home() {
       </div>
 
       <div className={styles.buttons}>
-        <button className={`${styles.btn} ${styles.primary}`} onClick={() => window.open('/project', '_self')}>
+        <button className={`${styles.btn} ${styles.primary}`} onClick={() => window.open('https://project.monoceros.art/', '_self')}>
           PROJECT
         </button>
         <button className={`${styles.btn} ${styles.secondary}`} onClick={() => window.open('/', '_self')}>
