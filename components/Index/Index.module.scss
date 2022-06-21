@@ -5,7 +5,7 @@ div.index {
 
   div.bg {
     opacity: 0.8;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -14,7 +14,7 @@ div.index {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('https://r4.wallpaperflare.com/wallpaper/844/756/925/rosette-nebula-ngc-2244-galaxy-stars-wallpaper-5b78621f415481e6e7a4088242668407.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/NGC-2237-deography-valentinesday-2018-HaRGB-Rosette-Mosaic.jpg/1599px-NGC-2237-deography-valentinesday-2018-HaRGB-Rosette-Mosaic.jpg?20180215010912');
     // box-shadow: 0 0 8px 8px #000000 inset;
     z-index: 10;
 
@@ -69,6 +69,20 @@ div.index {
         &:active {
           box-shadow: 0px 0px 0px 0px #b31544;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.index {
+
+    div.bg {
+      width: 100%;
+      opacity: 0.7;
+
+      div.blur {
+        display: none;
       }
     }
   }
