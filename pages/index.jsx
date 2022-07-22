@@ -11,8 +11,8 @@ export default function Home() {
         <button className={`${styles.btn} ${styles.primary}`} onClick={() => window.open('https://project.monoceros.art/', '_self')}>
           PROJECT
         </button>
-        <button className={`${styles.btn} ${styles.secondary}`} onClick={() => window.open('/', '_self')}>
-          MARKETPLACE
+        <button className={`${styles.btn} ${styles.secondary}`} onClick={() => window.open('https://platform.monoceros.art/', '_self')}>
+          PLATFORM
         </button>
       </div>
     </div>
